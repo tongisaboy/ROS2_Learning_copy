@@ -1,3 +1,4 @@
+/home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/launch/__pycache__/display_robot.launch.cpython-310.pyc
 /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/launch/display_robot.launch.py
 /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/launch/gazebo_sim.launch.py
 /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/fishbot/common_inertia.xacro
