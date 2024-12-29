@@ -1,0 +1,76 @@
+[0.015s] Invoking command in '/home/wstlxy/ROS2_Learning_copy/build/fishbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wstlxy/ROS2_Learning_copy/src/fishbot_description -DCMAKE_INSTALL_PREFIX=/home/wstlxy/ROS2_Learning_copy/install/fishbot_description
+[0.210s] -- The C compiler identification is GNU 11.4.0
+[0.357s] -- The CXX compiler identification is GNU 11.4.0
+[0.373s] -- Detecting C compiler ABI info
+[0.482s] -- Detecting C compiler ABI info - done
+[0.487s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.488s] -- Detecting C compile features
+[0.489s] -- Detecting C compile features - done
+[0.493s] -- Detecting CXX compiler ABI info
+[0.596s] -- Detecting CXX compiler ABI info - done
+[0.601s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.601s] -- Detecting CXX compile features
+[0.602s] -- Detecting CXX compile features - done
+[0.624s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.771s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.887s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.965s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.966s] -- Added test 'lint_cmake' to check CMake code style
+[0.967s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.970s] -- Added test 'xmllint' to check XML markup files
+[0.972s] -- Configuring done
+[0.976s] -- Generating done
+[0.978s] -- Build files have been written to: /home/wstlxy/ROS2_Learning_copy/build/fishbot_description
+[0.982s] Invoked command in '/home/wstlxy/ROS2_Learning_copy/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wstlxy/ROS2_Learning_copy/src/fishbot_description -DCMAKE_INSTALL_PREFIX=/home/wstlxy/ROS2_Learning_copy/install/fishbot_description
+[0.984s] Invoking command in '/home/wstlxy/ROS2_Learning_copy/build/fishbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wstlxy/ROS2_Learning_copy/build/fishbot_description -- -j16 -l16
+[1.030s] Invoked command in '/home/wstlxy/ROS2_Learning_copy/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wstlxy/ROS2_Learning_copy/build/fishbot_description -- -j16 -l16
+[1.040s] Invoking command in '/home/wstlxy/ROS2_Learning_copy/build/fishbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wstlxy/ROS2_Learning_copy/build/fishbot_description
+[1.046s] -- Install configuration: ""
+[1.046s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/launch
+[1.046s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/launch/display_robot.launch.py
+[1.047s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/launch/gazebo_sim.launch.py
+[1.047s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf
+[1.047s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/fishbot
+[1.047s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/fishbot/common_inertia.xacro
+[1.047s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator
+[1.047s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/caster.urdf.xacro
+[1.047s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/wheel.urdf.xacro
+[1.047s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins
+[1.047s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro
+[1.048s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_control_plugin.xacro
+[1.048s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.urdf.xacro
+[1.048s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor
+[1.048s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/camera.urdf.xacro
+[1.048s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/imu.urdf.xacro
+[1.048s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/laser.urdf.xacro
+[1.048s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/fishbot/base.urdf.xacro
+[1.048s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.ros2_control.xacro
+[1.049s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf.xacro
+[1.049s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf
+[1.049s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/first_robot.gv
+[1.050s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/first_robot.pdf
+[1.050s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/config
+[1.050s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/config/rviz
+[1.050s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/config/rviz/dispaly_model.rviz
+[1.050s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/config/fishbot_ros2_controller.yaml
+[1.050s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/world
+[1.050s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/world/room
+[1.050s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/world/room/model.sdf
+[1.050s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/world/room/model.config
+[1.050s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/world/custom_room.world
+[1.051s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+[1.051s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+[1.051s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+[1.051s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+[1.052s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/environment/path.sh
+[1.052s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/environment/path.dsv
+[1.052s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/local_setup.bash
+[1.052s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/local_setup.sh
+[1.052s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/local_setup.zsh
+[1.052s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/local_setup.dsv
+[1.052s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/package.dsv
+[1.052s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+[1.053s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+[1.053s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+[1.053s] -- Installing: /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/package.xml
+[1.055s] Invoked command in '/home/wstlxy/ROS2_Learning_copy/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wstlxy/ROS2_Learning_copy/build/fishbot_description

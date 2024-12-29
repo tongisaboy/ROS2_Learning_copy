@@ -1,0 +1,24 @@
+[0.530s] Invoking command in '/home/wstlxy/ROS2_Learning_copy/src/topic_text_video': PYTHONPATH=/home/wstlxy/ROS2_Learning_copy/build/topic_text_video/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wstlxy/ROS2_Learning_copy/install/topic_text_video/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/topic_text_video build --build-base /home/wstlxy/ROS2_Learning_copy/build/topic_text_video/build install --record /home/wstlxy/ROS2_Learning_copy/build/topic_text_video/install.log --single-version-externally-managed install_data
+[0.736s] running egg_info
+[0.737s] writing ../../build/topic_text_video/topic_text_video.egg-info/PKG-INFO
+[0.737s] writing dependency_links to ../../build/topic_text_video/topic_text_video.egg-info/dependency_links.txt
+[0.737s] writing entry points to ../../build/topic_text_video/topic_text_video.egg-info/entry_points.txt
+[0.738s] writing requirements to ../../build/topic_text_video/topic_text_video.egg-info/requires.txt
+[0.738s] writing top-level names to ../../build/topic_text_video/topic_text_video.egg-info/top_level.txt
+[0.740s] reading manifest file '../../build/topic_text_video/topic_text_video.egg-info/SOURCES.txt'
+[0.740s] writing manifest file '../../build/topic_text_video/topic_text_video.egg-info/SOURCES.txt'
+[0.740s] running build
+[0.740s] running build_py
+[0.741s] running install
+[0.741s] running install_lib
+[0.742s] running install_data
+[0.742s] running install_egg_info
+[0.745s] removing '/home/wstlxy/ROS2_Learning_copy/install/topic_text_video/lib/python3.10/site-packages/topic_text_video-0.0.0-py3.10.egg-info' (and everything under it)
+[0.745s] Copying ../../build/topic_text_video/topic_text_video.egg-info to /home/wstlxy/ROS2_Learning_copy/install/topic_text_video/lib/python3.10/site-packages/topic_text_video-0.0.0-py3.10.egg-info
+[0.745s] running install_scripts
+[0.772s] Installing topic_text_publisher script to /home/wstlxy/ROS2_Learning_copy/install/topic_text_video/lib/topic_text_video
+[0.772s] Installing topic_text_subscriber script to /home/wstlxy/ROS2_Learning_copy/install/topic_text_video/lib/topic_text_video
+[0.772s] Installing topic_video_publisher script to /home/wstlxy/ROS2_Learning_copy/install/topic_text_video/lib/topic_text_video
+[0.772s] Installing topic_video_subscriber script to /home/wstlxy/ROS2_Learning_copy/install/topic_text_video/lib/topic_text_video
+[0.773s] writing list of installed files to '/home/wstlxy/ROS2_Learning_copy/build/topic_text_video/install.log'
+[0.792s] Invoked command in '/home/wstlxy/ROS2_Learning_copy/src/topic_text_video' returned '0': PYTHONPATH=/home/wstlxy/ROS2_Learning_copy/build/topic_text_video/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wstlxy/ROS2_Learning_copy/install/topic_text_video/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/topic_text_video build --build-base /home/wstlxy/ROS2_Learning_copy/build/topic_text_video/build install --record /home/wstlxy/ROS2_Learning_copy/build/topic_text_video/install.log --single-version-externally-managed install_data
