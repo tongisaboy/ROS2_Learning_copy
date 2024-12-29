@@ -13,8 +13,6 @@
 /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.ros2_control.xacro
 /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf.xacro
 /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf
-/home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/first_robot.gv
-/home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/urdf/first_robot.pdf
 /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/config/rviz/dispaly_model.rviz
 /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/config/fishbot_ros2_controller.yaml
 /home/wstlxy/ROS2_Learning_copy/install/fishbot_description/share/fishbot_description/world/room/model.sdf
