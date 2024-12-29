@@ -22,8 +22,7 @@ class SubscriberNode_2(Node):
         self.get_logger().info('Receiving video frame')     # 输出日志信息，提示已进入回调函数
         image = self.cv_bridge.imgmsg_to_cv2(data, 'bgr8')  # 将ROS的图像消息转化成OpenCV图像
         cv2.imshow("video", image)                           # 使用OpenCV显示处理后的图像效果
-        cv2.waitKey(10)
-
+        cv2.waitKey(1)                                       # 等待1毫秒，以便显示图像
 
 def main(args=None):                            # ROS2节点主入口main函数
     rclpy.init(args=args)                       # ROS2 Python接口初始化
